@@ -51,3 +51,7 @@ footer p{
     color: white;
      
 }
+content img{
+    margin: auto;
+    display: block;
+}
