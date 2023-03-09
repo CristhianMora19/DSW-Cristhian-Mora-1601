@@ -32,7 +32,7 @@ header nav ul li a:hover{
 
 }
 p{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: justify;
     width: 70%;
     font-size: 25px;
@@ -51,7 +51,11 @@ footer p{
     color: white;
      
 }
-content img{
-    margin: auto;
+a{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 35px;
     display: block;
+    color: rgb(255, 255, 255);
+    text-decoration:underline ;
 }
