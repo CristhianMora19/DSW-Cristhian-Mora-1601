@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <link rel="stylesheet" href="CSS/Grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
+    <!--------BOOSTRAP------------------------------>
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" crossorigin="anonymous">
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--------BOOSTRAP------------------------------>
+</head>
+
+<body>
+
+    <header class="hero">
+        
+                <!--img src="Imagenes/Logo.png" style="height: 100%; width: 100%;" alt="logo"-->
+           
+        <nav class="nav container" id="nav">
+            <h2 class="nav__logo"> </h2>
+<center>
+            <ul class="nav__links">
+
+                <li class="nav__item">
+                    <a href="./index.html" class="nav__link">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Tema</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Nosotros</a>
+                </li>
+                
+
+            </ul>
+        </center>
+            <a href="#nav" class="nav__hamburguer">
+                <img src="#" class="nav__icon">
+            </a>
+        </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="./index.html">Inicio</a>
+            <a href="./audio.html">Audios</a>
+            <a href="#">Nosotros</a>
+        </div>
+          
+          
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+          
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+          </script>
+
+
+<div class="ex3">
+ <center><h1>Bienvenidos</h1></center>
+ <center><div id="todos"><p align="left">En la etapa 2 y debe cumplir con ciertos requisitos, 
+                             los cuales se pueden demostrar durante el desarrollo de la página web. 
+                             Es importante considerar el curso de apoyo en la documentación y videos parcialmente expuestos, 
+                             así como los videos de apoyo que se encuentran en el sitio web, 
+                             que se utilizan para brindar una mejor práctica.</p></div></center>
+ 
+ <center><h1>Que es Css Grid</h1></center>
+ <center><div id="todos"><p align="left">CSS Grid es un sistema de maquetación web que divide la página en una cuadrícula o rejilla (grid) a partir de la cual se pueden posicionar los diferentes elementos de manera más sencilla, versátil y coherente.</br>
+
+     Su practicidad y sus múltiples ventajas lo han convertido en un estándar. Es decir, casi cualquier navegador soporta e interpreta este tipo de código.</br>
+     
+     La irrupción de CSS Grid, junto con Flexbox, supuso una revolución en el mundo de la programación web, ya que permitía realizar con mucho menos código elementos y estructuras que resultaban muy complejas o directamente imposibles.</br>
+     
+     Ventajas de CSS Grid:</br>
+     <b>Mucha más flexibilidad:</b> te permite controlar los elementos en las 2 dimensiones y con total libertad.</br>
+     <b>Menos código y menos bugs:</b> se reduce considerablemente el código empleado, lo que conlleva revisiones más sencillas y menor probabilidad de bugs.</br>
+     <b>Optimización de recursos:</b> al ser código más simple y consistente se economiza tanto en tiempo como en recursos necesarios para mostrar la página.</br>  
+     <b>Responsive más sencillo:</b> permite crear elementos dinámicos que se adaptan a diferentes tamaños o resoluciones sin complicaciones.</p></div></center>
+
+ <center><h1>Mockup</h1></center>
+ <center><div id="todos"><p align="left">
+     El mockup de la pagina fue diseñado de la siguiente manera donde se especifica la distrubición de la misma.</br>
+     En el <b>header</b> podemos encontrar el nav de la pagina, donde observamos las opciones de Inicio, Css Grid, Mockup, Acerca de..</br>
+     En la parte de <b>Content</b> optenemos el contenido de la pagina, donde se expresa que es el motivo de la creación, que es Css Grid y el mockup</br>
+     La parte <b>Rigth y Lefth</b> son las margenes configuradas para la pagina</br>
+     Y por ultimo <b>Footer</b> donde se encuentra la información de copyright y del desarrollador
+     
+     <center><img src="Imagenes/Mockup.png" style="height: 50%; width: 50%;" alt="logo"></center></p></div></center>
+    </div>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+
+    <footer>
+        <p>Autor: Andres Felipe Rivera<br>
+            <p>Programa: Diseño web<br>
+                <p>Todos los derechos reservados<br>
+                    <p>UNAD 2023<br>
+      </footer>
+ 
+
+</body>
+
+</html>

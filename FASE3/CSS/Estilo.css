@@ -1,0 +1,78 @@
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+    ' A A A A A '
+    ' B B B B B '
+    ' C D D D D '
+    ' E E E E E ';
+}
+
+header{
+    grid-area: A ;
+    background-color:#F3EFE0 ;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    display: flex;
+    font-size: 35px;
+}
+
+nav{
+    grid-area: B;
+}
+aside{
+   
+    background-color:#F2E7D5 ;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 35px;
+}
+aside ul{
+    list-style:none;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    display:list-item;
+}
+aside ul li a{
+    display:flow-root;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration:double;
+}
+aside ul li a:hover{
+    background: #6D9886;
+    color: rgb(0, 0, 0);
+    box-shadow:0px 10px 20px #273f35;
+    border-top-left-radius:  17%;
+    border-bottom-left-radius: 17%;
+}
+
+main{
+    grid-area: D;
+    background-color:#6D9886 ;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    font-size: 35px;
+}
+
+h2{
+    background-color:#273f35 ;
+}
+p{
+    text-align: justify;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer{
+    grid-area: E;
+    background-color:#434242 ;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+footer p{
+    text-align: center;
+}
